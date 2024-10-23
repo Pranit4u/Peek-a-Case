@@ -1,5 +1,5 @@
 import { Chat, TextMessage } from "@/types";
-import { ADRIANA_IMAGE, HELEN_IMAGE } from "@/utils/contants";
+import { ADRIANNA_IMAGE, HELEN_IMAGE } from "@/utils/contants";
 
 const chapter1HelenChat = [
   {
@@ -338,7 +338,7 @@ const chapter2DavidChat = [
   },
   {
     id: 17,
-    message: "Adriana pick up!",
+    message: "Adrianna pick up!",
     time: "1:20 PM",
     date: "Sep 22nd",
     type: "text",
@@ -419,7 +419,7 @@ const chapter3NickChat = [
   {
     id: 2,
     message:
-      "Look David, we were really tight last semester, but you've gotten weird about Adriana",
+      "Look David, we were really tight last semester, but you've gotten weird about Adrianna",
     time: "08:08 PM",
     date: "Sep 22nd",
     type: "text",
@@ -460,7 +460,7 @@ const chapter3NickChat = [
   },
   {
     id: 7,
-    message: "Did you talk to Adriana about me?",
+    message: "Did you talk to Adrianna about me?",
     time: "02:21 PM",
     date: "Sep 24th",
     type: "text",
@@ -468,7 +468,7 @@ const chapter3NickChat = [
   },
   {
     id: 8,
-    message: "No. Adriana and I don't talk much",
+    message: "No. Adrianna and I don't talk much",
     time: "02:21 PM",
     date: "Sep 24th",
     type: "text",
@@ -515,7 +515,7 @@ const chapter3NickChat = [
     sent: true,
   },
   {
-    id: 13,
+    id: 14,
     message: "Reaching in 5 minutes",
     time: "06:40 PM",
     date: "Sep 27th",
@@ -523,16 +523,24 @@ const chapter3NickChat = [
     sent: false,
   },
   {
-    id: 14,
+    id: 15,
+    message: "Come down to the basement once you're here",
+    time: "06:40 PM",
+    date: "Sep 27th",
+    type: "text",
+    sent: true,
+  },
+  {
+    id: 16,
     message:
-      "David, this is Adriana. I'm sorry I hurt you but please let us out!!!!",
+      "David, this is Adrianna. I'm sorry I hurt you but please let us out!!!!",
     time: "06:51 PM",
     date: "Sep 28th",
     type: "text",
     sent: false,
   },
   {
-    id: 15,
+    id: 17,
     message:
       "Let us out of here David!! Nick is hurt! Did you hit him on the head or something?",
     time: "06:54 PM",
@@ -541,7 +549,7 @@ const chapter3NickChat = [
     sent: false,
   },
   {
-    id: 16,
+    id: 18,
     message: "My love please ❤️ this is not funny...",
     time: "07:04 PM",
     date: "Sep 28th",
@@ -549,7 +557,7 @@ const chapter3NickChat = [
     sent: false,
   },
   {
-    id: 17,
+    id: 19,
     message: "David are you there?",
     time: "07:06 PM",
     date: "Sep 28th",
@@ -558,7 +566,7 @@ const chapter3NickChat = [
   },
 ] as Chat[];
 
-const chapter3AdrianaChat = [
+const chapter3AdriannaChat = [
   {
     id: 1,
     message: "Why aren't you answering my messages?",
@@ -664,11 +672,11 @@ export const chapter3TextMessages = [
   },
   {
     id: 2,
-    img: ADRIANA_IMAGE,
-    name: "Adriana",
+    img: ADRIANNA_IMAGE,
+    name: "Adrianna",
     time: "09/27/2024",
     lastMessage: "I'll change. I promise.",
     number: "",
-    chats: chapter3AdrianaChat,
+    chats: chapter3AdriannaChat,
   },
 ];

@@ -1,5 +1,5 @@
 import { Contact } from "@/types";
-import { ADRIANA_IMAGE } from "@/utils/contants";
+import { ADRIANNA_IMAGE } from "@/utils/contants";
 
 export const chapter3Contacts = [
   {
@@ -25,8 +25,8 @@ export const chapter3Contacts = [
   },
   {
     id: 4,
-    name: "My Adriana 💔",
-    img: ADRIANA_IMAGE,
+    name: "My Adrianna 💔",
+    img: ADRIANNA_IMAGE,
     number: "973-555-0173",
     favourite: true,
   },

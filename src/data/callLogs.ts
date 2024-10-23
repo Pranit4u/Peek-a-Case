@@ -1,5 +1,5 @@
 import { CallLog } from "@/types";
-import { ADRIANA_IMAGE, HELEN_IMAGE } from "@/utils/contants";
+import { ADRIANNA_IMAGE, HELEN_IMAGE } from "@/utils/contants";
 
 export const chapter1CallLogs = [
   {
@@ -328,8 +328,8 @@ export const chapter2CallLogs = [
 export const chapter3CallLogs = [
   {
     id: 1,
-    img: ADRIANA_IMAGE,
-    name: "My Adriana 💔",
+    img: ADRIANNA_IMAGE,
+    name: "My Adrianna 💔",
     number: "973-555-0173",
     type: "Outgoing",
     time: "3:13 PM",
@@ -337,8 +337,8 @@ export const chapter3CallLogs = [
   },
   {
     id: 2,
-    img: ADRIANA_IMAGE,
-    name: "My Adriana 💔",
+    img: ADRIANNA_IMAGE,
+    name: "My Adrianna 💔",
     number: "973-555-0173",
     type: "Outgoing",
     time: "6:27 PM",
@@ -346,8 +346,8 @@ export const chapter3CallLogs = [
   },
   {
     id: 3,
-    img: ADRIANA_IMAGE,
-    name: "My Adriana 💔",
+    img: ADRIANNA_IMAGE,
+    name: "My Adrianna 💔",
     number: "973-555-0173",
     type: "Outgoing",
     time: "2:06 PM",
@@ -355,8 +355,8 @@ export const chapter3CallLogs = [
   },
   {
     id: 4,
-    img: ADRIANA_IMAGE,
-    name: "My Adriana 💔",
+    img: ADRIANNA_IMAGE,
+    name: "My Adrianna 💔",
     number: "973-555-0173",
     type: "Outgoing",
     time: "11:10 AM",
@@ -364,8 +364,8 @@ export const chapter3CallLogs = [
   },
   {
     id: 5,
-    img: ADRIANA_IMAGE,
-    name: "My Adriana 💔",
+    img: ADRIANNA_IMAGE,
+    name: "My Adrianna 💔",
     number: "973-555-0173",
     type: "Outgoing",
     time: "1:27 PM",
@@ -373,8 +373,8 @@ export const chapter3CallLogs = [
   },
   {
     id: 6,
-    img: ADRIANA_IMAGE,
-    name: "My Adriana 💔",
+    img: ADRIANNA_IMAGE,
+    name: "My Adrianna 💔",
     number: "973-555-0173",
     type: "Outgoing",
     time: "1:26 PM",
@@ -382,8 +382,8 @@ export const chapter3CallLogs = [
   },
   {
     id: 7,
-    img: ADRIANA_IMAGE,
-    name: "My Adriana 💔",
+    img: ADRIANNA_IMAGE,
+    name: "My Adrianna 💔",
     number: "973-555-0173",
     type: "Outgoing",
     time: "1:25 PM",
@@ -391,8 +391,8 @@ export const chapter3CallLogs = [
   },
   {
     id: 8,
-    img: ADRIANA_IMAGE,
-    name: "My Adriana 💔",
+    img: ADRIANNA_IMAGE,
+    name: "My Adrianna 💔",
     number: "973-555-0173",
     type: "Outgoing",
     time: "1:24 PM",
@@ -400,8 +400,8 @@ export const chapter3CallLogs = [
   },
   {
     id: 9,
-    img: ADRIANA_IMAGE,
-    name: "My Adriana 💔",
+    img: ADRIANNA_IMAGE,
+    name: "My Adrianna 💔",
     number: "973-555-0173",
     type: "Outgoing",
     time: "1:23 PM",
@@ -409,8 +409,8 @@ export const chapter3CallLogs = [
   },
   {
     id: 10,
-    img: ADRIANA_IMAGE,
-    name: "My Adriana 💔",
+    img: ADRIANNA_IMAGE,
+    name: "My Adrianna 💔",
     number: "973-555-0173",
     type: "Outgoing",
     time: "1:22 PM",
@@ -418,8 +418,8 @@ export const chapter3CallLogs = [
   },
   {
     id: 11,
-    img: ADRIANA_IMAGE,
-    name: "My Adriana 💔",
+    img: ADRIANNA_IMAGE,
+    name: "My Adrianna 💔",
     number: "973-555-0173",
     type: "Outgoing",
     time: "1:21 PM",
@@ -427,8 +427,8 @@ export const chapter3CallLogs = [
   },
   {
     id: 12,
-    img: ADRIANA_IMAGE,
-    name: "My Adriana 💔",
+    img: ADRIANNA_IMAGE,
+    name: "My Adrianna 💔",
     number: "973-555-0173",
     type: "Outgoing",
     time: "1:19 PM",
@@ -436,8 +436,8 @@ export const chapter3CallLogs = [
   },
   {
     id: 13,
-    img: ADRIANA_IMAGE,
-    name: "My Adriana 💔",
+    img: ADRIANNA_IMAGE,
+    name: "My Adrianna 💔",
     number: "973-555-0173",
     type: "Outgoing",
     time: "1:18 PM",
@@ -445,8 +445,8 @@ export const chapter3CallLogs = [
   },
   {
     id: 14,
-    img: ADRIANA_IMAGE,
-    name: "My Adriana 💔",
+    img: ADRIANNA_IMAGE,
+    name: "My Adrianna 💔",
     number: "973-555-0173",
     type: "Outgoing",
     time: "4:50 PM",
@@ -454,8 +454,8 @@ export const chapter3CallLogs = [
   },
   {
     id: 15,
-    img: ADRIANA_IMAGE,
-    name: "My Adriana 💔",
+    img: ADRIANNA_IMAGE,
+    name: "My Adrianna 💔",
     number: "973-555-0173",
     type: "Outgoing",
     time: "10:09 AM",
@@ -463,8 +463,8 @@ export const chapter3CallLogs = [
   },
   {
     id: 16,
-    img: ADRIANA_IMAGE,
-    name: "My Adriana 💔",
+    img: ADRIANNA_IMAGE,
+    name: "My Adrianna 💔",
     number: "973-555-0173",
     type: "Outgoing",
     time: "5:36 PM",
@@ -472,8 +472,8 @@ export const chapter3CallLogs = [
   },
   {
     id: 17,
-    img: ADRIANA_IMAGE,
-    name: "My Adriana 💔",
+    img: ADRIANNA_IMAGE,
+    name: "My Adrianna 💔",
     number: "973-555-0173",
     type: "Outgoing",
     time: "5:20 PM",
@@ -481,8 +481,8 @@ export const chapter3CallLogs = [
   },
   {
     id: 18,
-    img: ADRIANA_IMAGE,
-    name: "My Adriana 💔",
+    img: ADRIANNA_IMAGE,
+    name: "My Adrianna 💔",
     number: "973-555-0173",
     type: "Outgoing",
     time: "4:52 PM",
@@ -490,8 +490,8 @@ export const chapter3CallLogs = [
   },
   {
     id: 19,
-    img: ADRIANA_IMAGE,
-    name: "My Adriana 💔",
+    img: ADRIANNA_IMAGE,
+    name: "My Adrianna 💔",
     number: "973-555-0173",
     type: "Outgoing",
     time: "4:40 PM",
@@ -499,8 +499,8 @@ export const chapter3CallLogs = [
   },
   {
     id: 20,
-    img: ADRIANA_IMAGE,
-    name: "My Adriana 💔",
+    img: ADRIANNA_IMAGE,
+    name: "My Adrianna 💔",
     number: "973-555-0173",
     type: "Outgoing",
     time: "4:28 PM",
@@ -508,8 +508,8 @@ export const chapter3CallLogs = [
   },
   {
     id: 21,
-    img: ADRIANA_IMAGE,
-    name: "My Adriana 💔",
+    img: ADRIANNA_IMAGE,
+    name: "My Adrianna 💔",
     number: "973-555-0173",
     type: "Outgoing",
     time: "3:03 PM",
@@ -517,8 +517,8 @@ export const chapter3CallLogs = [
   },
   {
     id: 22,
-    img: ADRIANA_IMAGE,
-    name: "My Adriana 💔",
+    img: ADRIANNA_IMAGE,
+    name: "My Adrianna 💔",
     number: "973-555-0173",
     type: "Outgoing",
     time: "11:12 AM",
@@ -526,8 +526,8 @@ export const chapter3CallLogs = [
   },
   {
     id: 23,
-    img: ADRIANA_IMAGE,
-    name: "My Adriana 💔",
+    img: ADRIANNA_IMAGE,
+    name: "My Adrianna 💔",
     number: "973-555-0173",
     type: "Outgoing",
     time: "6:01 PM",
@@ -535,8 +535,8 @@ export const chapter3CallLogs = [
   },
   {
     id: 24,
-    img: ADRIANA_IMAGE,
-    name: "My Adriana 💔",
+    img: ADRIANNA_IMAGE,
+    name: "My Adrianna 💔",
     number: "973-555-0173",
     type: "Outgoing",
     time: "3:58 PM",
@@ -544,8 +544,8 @@ export const chapter3CallLogs = [
   },
   {
     id: 25,
-    img: ADRIANA_IMAGE,
-    name: "My Adriana 💔",
+    img: ADRIANNA_IMAGE,
+    name: "My Adrianna 💔",
     number: "973-555-0173",
     type: "Outgoing",
     time: "12:15 PM",

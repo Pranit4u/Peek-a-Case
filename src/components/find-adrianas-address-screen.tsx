@@ -7,7 +7,7 @@ import { chapter2TextMessages } from "@/data/chats";
 import { chapter2CallLogs } from "@/data/callLogs";
 import { chapter2Notes } from "@/data/notes";
 
-const FindAdrianasAddress = () => {
+const FindAdriannasAddress = () => {
   return (
     <Card
       isBlurred
@@ -29,4 +29,4 @@ const FindAdrianasAddress = () => {
   );
 };
 
-export default FindAdrianasAddress;
+export default FindAdriannasAddress;

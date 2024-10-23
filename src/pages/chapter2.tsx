@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 
 import { StartInvestigationModal } from "@/components/modals";
 import { RightArrowIcon } from "@/components/icons";
-import FindAdrianasAddress from "@/components/find-adrianas-address-screen";
+import FindAdriannasAddress from "@/components/find-adrianas-address-screen";
 import { CurrentUserContext } from "@/App";
 
 export default function Chapter2Page() {
@@ -38,7 +38,7 @@ export default function Chapter2Page() {
               <RightArrowIcon />
             </Button>
           }
-          placeholder="Find Adriana's address"
+          placeholder="Find Adrianna's address"
           type="text"
           value={answer}
           variant="bordered"
@@ -56,11 +56,11 @@ export default function Chapter2Page() {
       <Divider />
       <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10 flex-1">
         <StartInvestigationModal
-          text1="One of the tech store employees rushes out looking for Adriana. You mention her name, so they give you her fixed phone."
-          text2="Find out where Adriana lives? Submit the address in the box at top"
-          title="Find Adriana's address"
+          text1="One of the tech store employees rushes out looking for Adrianna. You mention her name, so they give you her fixed phone."
+          text2="Find out where Adrianna lives? Submit the address in the box at top"
+          title="Find Adrianna's address"
         />
-        <FindAdrianasAddress />
+        <FindAdriannasAddress />
       </section>
     </div>
   );

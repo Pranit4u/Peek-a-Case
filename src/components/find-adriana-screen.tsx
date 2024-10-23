@@ -12,7 +12,7 @@ import { chapter3CallLogs } from "@/data/callLogs";
 import { chapter3TextMessages } from "@/data/chats";
 import { chapter3Contacts } from "@/data/contacts";
 
-const FindAdriana = () => {
+const FindAdrianna = () => {
   return (
     <Card
       isBlurred
@@ -39,4 +39,4 @@ const FindAdriana = () => {
   );
 };
 
-export default FindAdriana;
+export default FindAdrianna;

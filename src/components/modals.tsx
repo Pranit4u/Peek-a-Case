@@ -385,6 +385,12 @@ export const NotesModal = ({
                 </ModalHeader>
                 <ModalBody className="flex justify-center">
                   <Input
+                    endContent={
+                      <FaDeleteLeft
+                        className="cursor-pointer"
+                        onClick={() => setPasswordInput("")}
+                      />
+                    }
                     style={{ textAlign: "center" }}
                     value={passwordInput}
                   />
