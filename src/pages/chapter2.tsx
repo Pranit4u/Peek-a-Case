@@ -1,7 +1,7 @@
 import { Button } from "@nextui-org/button";
 import { Input } from "@nextui-org/input";
 import { Divider, User } from "@nextui-org/react";
-import { useContext, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 import { StartInvestigationModal } from "@/components/modals";
@@ -11,8 +11,14 @@ import { CurrentUserContext } from "@/App";
 
 export default function Chapter2Page() {
   const navigate = useNavigate();
-  const { currentUser } = useContext(CurrentUserContext);
+  const { currentUser, currentPath, setCurrentPath } = useContext(CurrentUserContext);
   const [answer, setAnswer] = useState("");
+
+  useEffect(() => {
+    if (currentPath !== "chapter1") {
+      navigate("/");
+    }
+  });
 
   const handleSubmit = () => {
     if (!answer) {
@@ -20,6 +26,7 @@ export default function Chapter2Page() {
     }
     if (answer.toLowerCase() === "456 freedom ave") {
       alert("Investigation succeeded");
+      setCurrentPath("chapter2");
       navigate("/chapter3");
     } else {
       alert("Mission failed");

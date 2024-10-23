@@ -7,6 +7,8 @@ export type IconSvgProps = SVGProps<SVGSVGElement> & {
 export type UserContext = {
   currentUser: string;
   setCurrentUser: React.Dispatch<React.SetStateAction<string>>;
+  currentPath: string;
+  setCurrentPath: React.Dispatch<React.SetStateAction<string>>;
 };
 
 export type Chat = {

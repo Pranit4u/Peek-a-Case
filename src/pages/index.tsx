@@ -2,14 +2,18 @@ import { Button, Card, CardBody, Code, Divider } from "@nextui-org/react";
 import { Input } from "@nextui-org/input";
 import { User } from "@nextui-org/react";
 import { useNavigate } from "react-router-dom";
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import Typewriter from "typewriter-effect";
 
 import { CurrentUserContext } from "@/App";
 
 export default function IndexPage() {
   const navigate = useNavigate();
-  const { currentUser, setCurrentUser } = useContext(CurrentUserContext);
+  const { currentUser, setCurrentUser, setCurrentPath } = useContext(CurrentUserContext);
+
+  useEffect(() => {
+    setCurrentPath("");
+  });
 
   return (
     <div className="h-screen flex flex-col">
@@ -53,7 +57,10 @@ export default function IndexPage() {
           className="disabled:cursor-not-allowed"
           color="success"
           disabled={!currentUser}
-          onClick={() => navigate("/chapter1", { replace: true })}
+          onClick={() => {
+              setCurrentPath("index")
+              navigate("/chapter1", { replace: true });
+          }}
         >
           Start the mission
         </Button>

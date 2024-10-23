@@ -1,6 +1,6 @@
 import { Button, Input, Tooltip, User } from "@nextui-org/react";
 import { Divider } from "@nextui-org/react";
-import { useContext, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 import { CurrentUserContext } from "@/App";
@@ -10,9 +10,15 @@ import { StartInvestigationModal } from "@/components/modals";
 
 export default function Chapter1Page() {
   const navigate = useNavigate();
-  const { currentUser } = useContext(CurrentUserContext);
+  const { currentUser, currentPath, setCurrentPath } = useContext(CurrentUserContext);
   const [showTooltip, setShowTooltip] = useState(false);
   const [answer, setAnswer] = useState("");
+
+  useEffect(() => {
+    if (currentPath !== "index") {
+      navigate("/");
+    }
+  });
 
   const handleSubmit = () => {
     if (!answer) {
@@ -20,6 +26,7 @@ export default function Chapter1Page() {
     }
     if (answer.toLowerCase().trim() === "adrianna") {
       alert("Investigation succeeded");
+      setCurrentPath("chapter1");
       navigate("/chapter2");
     } else {
       alert("Mission failed");
