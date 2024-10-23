@@ -1,21 +1,23 @@
 import { Route, Routes } from "react-router-dom";
+import { createContext, useState } from "react";
+
+import { UserContext } from "./types";
 
 import IndexPage from "@/pages/index";
 import Chapter1Page from "@/pages/chatper1";
 import Chapter2Page from "@/pages/chapter2";
 import Chapter3Page from "@/pages/chapter3";
-import { createContext, useState } from "react";
-import { UserContext } from "./types";
 
 export const CurrentUserContext = createContext({} as UserContext);
 
 function App() {
   const [currentUser, setCurrentUser] = useState("");
+
   return (
     <CurrentUserContext.Provider
       value={{
         currentUser,
-        setCurrentUser
+        setCurrentUser,
       }}
     >
       <Routes>

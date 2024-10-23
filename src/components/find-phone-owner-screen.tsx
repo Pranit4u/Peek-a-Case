@@ -1,10 +1,12 @@
 import { Card, CardBody } from "@nextui-org/react";
-import { CallLogsModal, TextMessagesModal } from "./modals";
-import { chapter1CallLogs } from "@/data/callLogs";
-import { chapter1TextMessages } from "@/data/chats";
 import { FaBatteryThreeQuarters, FaWifi } from "react-icons/fa6";
 
-export const  FindPhoneOwner = () => {
+import { CallLogsModal, TextMessagesModal } from "./modals";
+
+import { chapter1CallLogs } from "@/data/callLogs";
+import { chapter1TextMessages } from "@/data/chats";
+
+export const FindPhoneOwner = () => {
   return (
     <Card
       isBlurred
@@ -18,9 +20,9 @@ export const  FindPhoneOwner = () => {
         </div>
         <div className="grid grid-cols-6 md:grid-cols-12 gap-6 md:gap-4 items-center justify-center p-4">
           <CallLogsModal callLogs={chapter1CallLogs} />
-          <TextMessagesModal textMessages={chapter1TextMessages}/>
+          <TextMessagesModal textMessages={chapter1TextMessages} />
         </div>
       </CardBody>
     </Card>
   );
-}
+};

@@ -1,9 +1,21 @@
-import { Avatar, Divider } from "@nextui-org/react"
+import { Avatar, Divider } from "@nextui-org/react";
 
-const TextMessageItem = ({ img, name, time, lastMessage, onClick }: { img: string, name: string, time: string, lastMessage: string, onClick: any }) => {
+const TextMessageItem = ({
+  img,
+  name,
+  time,
+  lastMessage,
+  onClick,
+}: {
+  img: string;
+  name: string;
+  time: string;
+  lastMessage: string;
+  onClick: any;
+}) => {
   return (
     <>
-      <div className="flex gap-2" onClick={onClick}>
+      <div className="flex gap-2" role="button" onClick={onClick}>
         <Avatar src={img} />
         <div className="flex flex-col gap-1 flex-1">
           <p className="text-sm font-medium">{name}</p>
@@ -15,7 +27,7 @@ const TextMessageItem = ({ img, name, time, lastMessage, onClick }: { img: strin
       </div>
       <Divider />
     </>
-  )
-}
+  );
+};
 
-export default TextMessageItem
+export default TextMessageItem;

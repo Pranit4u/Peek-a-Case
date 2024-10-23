@@ -12,7 +12,8 @@ const chapter1HelenChat = [
   },
   {
     id: 2,
-    message: "The tech store gave me this temporary phone until they fix mine🙄🤦‍♀️",
+    message:
+      "The tech store gave me this temporary phone until they fix mine🙄🤦‍♀️",
     time: "1:17 PM",
     date: "Sep 26th",
     type: "text",
@@ -66,7 +67,7 @@ const chapter1HelenChat = [
     type: "text",
     sent: false,
   },
-] as Chat[]
+] as Chat[];
 
 export const chapter1TextMessages = [
   {
@@ -78,7 +79,7 @@ export const chapter1TextMessages = [
     number: "973-555-0180",
     chats: chapter1HelenChat,
   },
-] as TextMessage[]
+] as TextMessage[];
 
 const chapter2HelenChat = [
   {
@@ -88,7 +89,7 @@ const chapter2HelenChat = [
     date: "Sep 16th",
     type: "text",
     sent: false,
-    img: HELEN_IMAGE
+    img: HELEN_IMAGE,
   },
   {
     id: 2,
@@ -105,7 +106,7 @@ const chapter2HelenChat = [
     date: "Sep 16th",
     type: "text",
     sent: false,
-    img: HELEN_IMAGE
+    img: HELEN_IMAGE,
   },
   {
     id: 4,
@@ -122,7 +123,7 @@ const chapter2HelenChat = [
     date: "Sep 18th",
     type: "text",
     sent: false,
-    img: HELEN_IMAGE
+    img: HELEN_IMAGE,
   },
   {
     id: 6,
@@ -139,11 +140,12 @@ const chapter2HelenChat = [
     date: "Sep 19th",
     type: "text",
     sent: false,
-    img: HELEN_IMAGE
+    img: HELEN_IMAGE,
   },
   {
     id: 8,
-    message: "I can't 😣 that project for marketing is due tonight and I still have to research Senator Vaughn's political strategy for it",
+    message:
+      "I can't 😣 that project for marketing is due tonight and I still have to research Senator Vaughn's political strategy for it",
     time: "2:22 PM",
     date: "Sep 19th",
     type: "text",
@@ -156,16 +158,17 @@ const chapter2HelenChat = [
     date: "Sep 19th",
     type: "text",
     sent: false,
-    img: HELEN_IMAGE
+    img: HELEN_IMAGE,
   },
   {
     id: 10,
-    message: "Woman I hear your phone vibrating every two minutes. Does David call you all class?",
+    message:
+      "Woman I hear your phone vibrating every two minutes. Does David call you all class?",
     time: "5:21 PM",
     date: "Sep 20th",
     type: "text",
     sent: false,
-    img: HELEN_IMAGE
+    img: HELEN_IMAGE,
   },
   {
     id: 11,
@@ -177,7 +180,8 @@ const chapter2HelenChat = [
   },
   {
     id: 12,
-    message: "I think I'm going to dump him. I even deleted that stupid chat app he made me download",
+    message:
+      "I think I'm going to dump him. I even deleted that stupid chat app he made me download",
     time: "4:53 PM",
     date: "Sep 21st",
     type: "text",
@@ -190,7 +194,7 @@ const chapter2HelenChat = [
     date: "Sep 21st",
     type: "text",
     sent: false,
-    img: HELEN_IMAGE
+    img: HELEN_IMAGE,
   },
   {
     id: 14,
@@ -200,7 +204,7 @@ const chapter2HelenChat = [
     type: "text",
     sent: true,
   },
-] as Chat[]
+] as Chat[];
 
 const chapter2DavidChat = [
   {
@@ -317,7 +321,8 @@ const chapter2DavidChat = [
   },
   {
     id: 15,
-    message: "No. I'm done, David. You broke my phone when you wouldn't let go last night",
+    message:
+      "No. I'm done, David. You broke my phone when you wouldn't let go last night",
     time: "1:17 PM",
     date: "Sep 22nd",
     type: "text",
@@ -409,15 +414,16 @@ const chapter3NickChat = [
     time: "08:08 PM",
     date: "Sep 22nd",
     type: "text",
-    sent: true
+    sent: true,
   },
   {
     id: 2,
-    message: "Look David, we were really tight last semester, but you've gotten weird about Adriana",
+    message:
+      "Look David, we were really tight last semester, but you've gotten weird about Adriana",
     time: "08:08 PM",
     date: "Sep 22nd",
     type: "text",
-    sent: false
+    sent: false,
   },
   {
     id: 3,
@@ -425,15 +431,16 @@ const chapter3NickChat = [
     time: "08:09 PM",
     date: "Sep 22nd",
     type: "text",
-    sent: true
+    sent: true,
   },
   {
     id: 4,
-    message: "I saw you yelling at her outside the campus square. You wouldn't let her walk away and you were mad over some basic shit",
+    message:
+      "I saw you yelling at her outside the campus square. You wouldn't let her walk away and you were mad over some basic shit",
     time: "08:10 PM",
     date: "Sep 22nd",
     type: "text",
-    sent: false
+    sent: false,
   },
   {
     id: 5,
@@ -441,7 +448,7 @@ const chapter3NickChat = [
     time: "08:10 PM",
     date: "Sep 22nd",
     type: "text",
-    sent: true
+    sent: true,
   },
   {
     id: 6,
@@ -449,7 +456,7 @@ const chapter3NickChat = [
     time: "08:11 PM",
     date: "Sep 22nd",
     type: "text",
-    sent: false
+    sent: false,
   },
   {
     id: 7,
@@ -457,7 +464,7 @@ const chapter3NickChat = [
     time: "02:21 PM",
     date: "Sep 24th",
     type: "text",
-    sent: true
+    sent: true,
   },
   {
     id: 8,
@@ -465,7 +472,7 @@ const chapter3NickChat = [
     time: "02:21 PM",
     date: "Sep 24th",
     type: "text",
-    sent: false
+    sent: false,
   },
   {
     id: 9,
@@ -473,7 +480,7 @@ const chapter3NickChat = [
     time: "02:22 PM",
     date: "Sep 24th",
     type: "text",
-    sent: true
+    sent: true,
   },
   {
     id: 10,
@@ -481,7 +488,7 @@ const chapter3NickChat = [
     time: "02:22 PM",
     date: "Sep 24th",
     type: "text",
-    sent: false
+    sent: false,
   },
   {
     id: 11,
@@ -489,7 +496,7 @@ const chapter3NickChat = [
     time: "06:30 PM",
     date: "Sep 27th",
     type: "text",
-    sent: true
+    sent: true,
   },
   {
     id: 12,
@@ -497,7 +504,7 @@ const chapter3NickChat = [
     time: "06:30 PM",
     date: "Sep 27th",
     type: "emoji",
-    sent: false
+    sent: false,
   },
   {
     id: 13,
@@ -505,7 +512,7 @@ const chapter3NickChat = [
     time: "06:30 PM",
     date: "Sep 27th",
     type: "text",
-    sent: true
+    sent: true,
   },
   {
     id: 13,
@@ -513,23 +520,25 @@ const chapter3NickChat = [
     time: "06:40 PM",
     date: "Sep 27th",
     type: "text",
-    sent: false
+    sent: false,
   },
   {
     id: 14,
-    message: "David, this is Adriana. I'm sorry I hurt you but please let us out!!!!",
+    message:
+      "David, this is Adriana. I'm sorry I hurt you but please let us out!!!!",
     time: "06:51 PM",
     date: "Sep 28th",
     type: "text",
-    sent: false
+    sent: false,
   },
   {
     id: 15,
-    message: "Let us out of here David!! Nick is hurt! Did you hit him on the head or something?",
+    message:
+      "Let us out of here David!! Nick is hurt! Did you hit him on the head or something?",
     time: "06:54 PM",
     date: "Sep 28th",
     type: "text",
-    sent: false
+    sent: false,
   },
   {
     id: 16,
@@ -537,7 +546,7 @@ const chapter3NickChat = [
     time: "07:04 PM",
     date: "Sep 28th",
     type: "text",
-    sent: false
+    sent: false,
   },
   {
     id: 17,
@@ -545,7 +554,7 @@ const chapter3NickChat = [
     time: "07:06 PM",
     date: "Sep 28th",
     type: "text",
-    sent: false
+    sent: false,
   },
 ] as Chat[];
 
@@ -576,7 +585,8 @@ const chapter3AdrianaChat = [
   },
   {
     id: 4,
-    message: "😡 Well I don't like that you're messaging me on like 3 different apps and acting like I've done something wrong!",
+    message:
+      "😡 Well I don't like that you're messaging me on like 3 different apps and acting like I've done something wrong!",
     time: "10:36 AM",
     date: "Sep 22, 2024",
     type: "text",
@@ -584,7 +594,8 @@ const chapter3AdrianaChat = [
   },
   {
     id: 5,
-    message: "You're so ungrateful. I do this because I care about you and need to make sure you're safe.",
+    message:
+      "You're so ungrateful. I do this because I care about you and need to make sure you're safe.",
     time: "10:37 AM",
     date: "Sep 22, 2024",
     type: "text",
@@ -600,7 +611,8 @@ const chapter3AdrianaChat = [
   },
   {
     id: 7,
-    message: "I love you so so so so so so much ❤️🧡💛 Tell me you love me too baby",
+    message:
+      "I love you so so so so so so much ❤️🧡💛 Tell me you love me too baby",
     time: "10:39 AM",
     date: "Sep 22, 2024",
     type: "text",
@@ -640,7 +652,6 @@ const chapter3AdrianaChat = [
   },
 ] as Chat[];
 
-
 export const chapter3TextMessages = [
   {
     id: 1,
@@ -659,5 +670,5 @@ export const chapter3TextMessages = [
     lastMessage: "I'll change. I promise.",
     number: "",
     chats: chapter3AdrianaChat,
-  }
-]
+  },
+];

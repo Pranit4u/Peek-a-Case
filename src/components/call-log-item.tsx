@@ -1,6 +1,18 @@
-import { Avatar, Divider } from "@nextui-org/react"
+import { Avatar, Divider } from "@nextui-org/react";
 
-const CallLogItem = ({ img, name, type, time, number }: { img: string, name: string, type: string, time: string, number: string }) => {
+const CallLogItem = ({
+  img,
+  name,
+  type,
+  time,
+  number,
+}: {
+  img: string;
+  name: string;
+  type: string;
+  time: string;
+  number: string;
+}) => {
   return (
     <>
       <div className="flex gap-2">
@@ -16,7 +28,7 @@ const CallLogItem = ({ img, name, type, time, number }: { img: string, name: str
       </div>
       <Divider />
     </>
-  )
-}
+  );
+};
 
-export default CallLogItem
+export default CallLogItem;

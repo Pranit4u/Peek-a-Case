@@ -7,7 +7,7 @@ export type IconSvgProps = SVGProps<SVGSVGElement> & {
 export type UserContext = {
   currentUser: string;
   setCurrentUser: React.Dispatch<React.SetStateAction<string>>;
-}
+};
 
 export type Chat = {
   id: number;
@@ -17,7 +17,7 @@ export type Chat = {
   type: string;
   sent: boolean;
   avatar?: string;
-}
+};
 
 export type CallLog = {
   id: number;
@@ -26,8 +26,8 @@ export type CallLog = {
   type: string;
   time: string;
   number: string;
-  date?: string; 
-}
+  date?: string;
+};
 
 export type TextMessage = {
   id: number;
@@ -37,14 +37,14 @@ export type TextMessage = {
   number: string;
   lastMessage: string;
   chats: Chat[];
-}
+};
 
 export type Note = {
   id: number;
   title: string;
   displayText: string;
   data: string;
-}
+};
 
 export type Contact = {
   id: number;
@@ -52,4 +52,4 @@ export type Contact = {
   name: string;
   number: string;
   favourite: boolean;
-}
+};

@@ -3,8 +3,9 @@ import { Input } from "@nextui-org/input";
 import { User } from "@nextui-org/react";
 import { useNavigate } from "react-router-dom";
 import { useContext } from "react";
+import Typewriter from "typewriter-effect";
+
 import { CurrentUserContext } from "@/App";
-import Typewriter from 'typewriter-effect';
 
 export default function IndexPage() {
   const navigate = useNavigate();
@@ -16,12 +17,12 @@ export default function IndexPage() {
         <h4 className="text-medium font-medium">Peek a Case</h4>
         <Code className="text-medium font-medium">Chapter 1: Gone Girl</Code>
         <User
-          name={currentUser || "..."}
-          description="Private detective"
           avatarProps={{
-            src: '/searcher.png',
-            isBordered: true
+            src: "/searcher.png",
+            isBordered: true,
           }}
+          description="Private detective"
+          name={currentUser || "..."}
         />
       </div>
       <Divider />
@@ -30,26 +31,29 @@ export default function IndexPage() {
           <CardBody className="h-[100px]">
             <Typewriter
               onInit={(typewriter) => {
-                typewriter.changeDelay(50)
-                  .typeString('A missing girl case is assigned to you. Your mission, should you choose to accept it, is to find the missing girl!')
+                typewriter
+                  .changeDelay(50)
+                  .typeString(
+                    "A missing girl case is assigned to you. Your mission, should you choose to accept it, is to find the missing girl!",
+                  )
                   .start();
               }}
             />
           </CardBody>
         </Card>
         <Input
-          type="text"
-          variant="bordered"
           className="max-w-xs"
           placeholder="The name is Bond?"
+          type="text"
           value={currentUser}
+          variant="bordered"
           onChange={(e) => setCurrentUser(e.target.value)}
         />
         <Button
-          color="success"
-          onClick={() => navigate("/chapter1", {replace: true})}
-          disabled={!currentUser}
           className="disabled:cursor-not-allowed"
+          color="success"
+          disabled={!currentUser}
+          onClick={() => navigate("/chapter1", { replace: true })}
         >
           Start the mission
         </Button>

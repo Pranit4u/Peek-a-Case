@@ -23,7 +23,7 @@ export const chapter1CallLogs = [
     time: "1:56 PM",
     number: "973-555-0180",
   },
-] as CallLog[]
+] as CallLog[];
 
 export const chapter2CallLogs = [
   {

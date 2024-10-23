@@ -8,7 +8,7 @@ export const chapter2Notes = [
     data: `1. Buy flowers
       2. Marketing project on Charles Vaughn due!😨
       3. Visit dad
-      4. Couples therapist?`
+      4. Couples therapist?`,
   },
   {
     id: 2,
@@ -19,6 +19,6 @@ export const chapter2Notes = [
       Mary:
       1124 Haygood Street Apt. 2
       David & Me🏠❤️:
-      456 Freedom Ave`
-  }
-] as Note[]
+      456 Freedom Ave`,
+  },
+] as Note[];
