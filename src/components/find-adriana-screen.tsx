@@ -4,7 +4,7 @@ import { FaBatteryThreeQuarters, FaWifi } from "react-icons/fa6";
 import {
   CallLogsModal,
   ContactsModal,
-  SmartHomeModal,
+  // SmartHomeModal,
   TextMessagesModal,
 } from "./modals";
 
@@ -32,7 +32,7 @@ const FindAdrianna = () => {
             password="19145"
             textMessages={chapter3TextMessages}
           />
-          <SmartHomeModal />
+          {/* <SmartHomeModal /> */}
         </div>
       </CardBody>
     </Card>

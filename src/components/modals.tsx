@@ -590,67 +590,67 @@ export const ContactsModal = ({ contacts }: { contacts: Contact[] }) => {
   );
 };
 
-export const SmartHomeModal = () => {
-  const { isOpen, onOpen, onOpenChange } = useDisclosure();
+// export const SmartHomeModal = () => {
+//   const { isOpen, onOpen, onOpenChange } = useDisclosure();
 
-  return (
-    <>
-      <div className="relative col-span-6 md:col-span-1">
-        <Image
-          alt="Album cover"
-          className="object-cover"
-          src="./smart-home.png"
-          onClick={onOpen}
-        />
-      </div>
-      <Modal
-        backdrop="blur"
-        className="h-3/4"
-        isOpen={isOpen}
-        size="lg"
-        onOpenChange={onOpenChange}
-      >
-        <ModalContent>
-          {() => (
-            <>
-              <ModalHeader className="flex flex-col gap-1 text-center">
-                <h4>Smart Home</h4>
-              </ModalHeader>
-              <ModalBody>
-                <div className="grid grid-cols-4 md:grid-cols-2 gap-4 md:gap-4">
-                  <Card className="max-w-[400px] m-2">
-                    <div onClick={onOpen} role="button">
-                      <CardBody className="flex flex-col items-center gap-3">
-                        <p className="text-small">Dog Feeder</p>
-                        <p className="text-small text-default-500">On</p>
-                      </CardBody>
-                    </div>
-                  </Card>
-                  <Card className="max-w-[400px] m-2">
-                    <div onClick={onOpen}>
-                      <CardBody className="flex flex-col items-center gap-3">
-                        <p className="text-small">Basement Door</p>
-                        <p className="text-small text-default-500">Locked</p>
-                      </CardBody>
-                    </div>
-                  </Card>
-                  <Card className="max-w-[400px] m-2">
-                    <div onClick={onOpen} role="button">
-                      <CardBody className="flex flex-col items-center gap-3">
-                        <p className="text-small">Water Pump</p>
-                        <p className="text-small text-default-500">On</p>
-                      </CardBody>
-                    </div>
-                  </Card>
-                </div>
-              </ModalBody>
-            </>
-          )}
-        </ModalContent>
-      </Modal>
-    </>
-  );
-};
+//   return (
+//     <>
+//       <div className="relative col-span-6 md:col-span-1">
+//         <Image
+//           alt="Album cover"
+//           className="object-cover"
+//           src="./smart-home.png"
+//           onClick={onOpen}
+//         />
+//       </div>
+//       <Modal
+//         backdrop="blur"
+//         className="h-3/4"
+//         isOpen={isOpen}
+//         size="lg"
+//         onOpenChange={onOpenChange}
+//       >
+//         <ModalContent>
+//           {() => (
+//             <>
+//               <ModalHeader className="flex flex-col gap-1 text-center">
+//                 <h4>Smart Home</h4>
+//               </ModalHeader>
+//               <ModalBody>
+//                 <div className="grid grid-cols-4 md:grid-cols-2 gap-4 md:gap-4">
+//                   <Card className="max-w-[400px] m-2">
+//                     <div onClick={onOpen} role="button">
+//                       <CardBody className="flex flex-col items-center gap-3">
+//                         <p className="text-small">Dog Feeder</p>
+//                         <p className="text-small text-default-500">On</p>
+//                       </CardBody>
+//                     </div>
+//                   </Card>
+//                   <Card className="max-w-[400px] m-2">
+//                     <div onClick={onOpen}>
+//                       <CardBody className="flex flex-col items-center gap-3">
+//                         <p className="text-small">Basement Door</p>
+//                         <p className="text-small text-default-500">Locked</p>
+//                       </CardBody>
+//                     </div>
+//                   </Card>
+//                   <Card className="max-w-[400px] m-2">
+//                     <div onClick={onOpen} role="button">
+//                       <CardBody className="flex flex-col items-center gap-3">
+//                         <p className="text-small">Water Pump</p>
+//                         <p className="text-small text-default-500">On</p>
+//                       </CardBody>
+//                     </div>
+//                   </Card>
+//                 </div>
+//               </ModalBody>
+//             </>
+//           )}
+//         </ModalContent>
+//       </Modal>
+//     </>
+//   );
+// };
 
 const ImageModal = ({ img }: { img: string }) => {
   const { isOpen, onOpen, onOpenChange } = useDisclosure();
